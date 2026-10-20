@@ -1,0 +1,58 @@
+/* src/index.css */
+
+body {
+  font-family: system-ui, sans-serif;
+  margin: 0;
+  padding: 24px;
+  background: #f7f7f5;
+  color: #1f2933;
+}
+
+.judul {
+  margin: 0 0 4px;
+}
+
+.panel {
+  background: #ffffff;
+  border: 1px solid #d9d9d4;
+  border-radius: 6px;
+  padding: 16px;
+  margin: 16px 0;
+}
+
+.daftar {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 12px;
+}
+
+.kartu {
+  border: 1px solid #d9d9d4;
+  border-radius: 6px;
+  padding: 12px;
+}
+
+.kartu h3 {
+  margin: 0 0 4px;
+}
+
+.badge {
+  display: inline-block;
+  background: #f4b942;
+  padding: 2px 8px;
+  border-radius: 3px;
+  font-size: 12px;
+}
+
+.kontrol {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 8px 0;
+}
+
+.ringkasan {
+  border-top: 2px solid #1f2933;
+  margin-top: 16px;
+  padding-top: 12px;
+}
